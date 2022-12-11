@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{font-family: 'poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: #FFE4BB;}
+
+.header{
+    background-color: #FFE4BB; 
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    padding-left: 6.8rem;
+    
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: #726658;
+}
+
+/*fim do header*/
+
+/*Inicio Do main*/
+
+main{
+    padding-top: 2rem;
+    background-color: #FFE4BB;
+}
+#logo{
+    padding-left: 2rem;
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+}
+
+.hero .container{
+    display: flex;
+}
+.text-box{
+    width: 49rem;
+    padding-left: 2rem;
+}
+
+.membros-lista{
+    list-style: none;
+    padding-top: 2.1rem;
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+}
+
+
+
+.membros-lista img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+.membros-lista img:hover{
+    height: 8rem;
+    width: 8rem;
+    
+}
+
+.dev-text-box{
+    width: 50.1rem;
+    padding-left: 2rem;
+}
+
+.gallery {
+    background: #EEE;
+  }
+
+.img-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.9rem;
+    padding-left: 22px;
+    padding-right: 22px;
+    gap: 1.9rem;
+    border: solid #726658;
+}
+
+.prototipo-img img{
+    width:12.25rem;
+    height: 26rem;
+}
+
+.meu-botao{
+    padding-top: 1rem;
+}
+
+.myButton {
+	background-color:#fff0da;
+	border-radius:8px;
+	border:2px solid #ffe4bb;
+	display:inline-block;
+	cursor:pointer;
+	color:#726658;
+	font-family:Arial;
+	font-size:17px;
+	padding:11px 22px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#f7dfbe;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/*Fim do main*/
